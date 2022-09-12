@@ -9,7 +9,7 @@ int num2;
 int sub;
 
 int sum;
-cout<<"Enter 1st number=";
+cout<<"Enter 122st number=";
 cin>>num1;
 cout<<"Enter 2nd number=";
 cin>>num2;
