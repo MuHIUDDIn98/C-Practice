@@ -1,5 +1,4 @@
 #include<iostream>
-#include<conio.h>
 using namespace std;
 
 main(){
@@ -31,6 +30,5 @@ cout<<"Modulus of two number="<<mod<<endl;
 
 
 
-
-getch();
+return 0;
 }
