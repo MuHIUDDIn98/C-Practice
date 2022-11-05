@@ -43,5 +43,5 @@ cout<< "bitwise g XOR h :"<<i<<endl;
 
 
 
-
+return 0;
 }

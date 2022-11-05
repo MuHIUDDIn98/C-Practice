@@ -16,10 +16,10 @@ main()
    cout<<"Enter farenhite=";
    cin>>farenhite;
    celceous=(farenhite-32)/1.8;
-   cout<<"celceous="<<celceous<<"  celceous to kelvin="<<celceous+273<<"kelvin";
+   cout<<"celceous="<<celceous<<"  celceous to kelvin="<<celceous+273<<" kelvin";
 
 
 
-
+return 0;
 
 }
