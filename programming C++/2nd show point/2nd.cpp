@@ -9,7 +9,7 @@ setprecision()*/
 #include<iomanip>
 using namespace std;
 
-main(){
+int main(){
 
 float num1;
 float num2;
@@ -24,30 +24,30 @@ cin>>num2;
 
 cout<<showpoint;
 cout<<fixed;
-cout<<setprecision(4);
+cout<<setprecision(10);
 
 sum=num1+num2;
 
 
 
-cout<<setw(33)<<"Addtion of two number is ="<<sum<<endl;
+cout<<setw(34)<<"Addtion of two number is ="<<sum<<endl;
 
 sub=num1-num2;
-cout<<setw(33)<<"substraction of two number is ="<<sub<<endl;
+cout<<setw(35)<<"substraction of two number is ="<<sub<<endl;
 
 
 double mul=num1*num2;
 cout<<noshowpoint;
-cout<<setw(33)<<"Multiplication of two number is ="<<mul<<endl;
+cout<<setw(36)<<"Multiplication of two number is ="<<mul<<endl;
 
 
 int div1=num1/num2;
 
-cout<<setw(33)<<"Division of two number is ="<<div1<<endl;
+cout<<setw(37)<<"Division of two number is ="<<div1<<endl;
 
 
 float div=(float)num1/num2; // type custing
-cout<<setw(33)<<"Division of two number is ="<<div<<endl;
+cout<<setw(38)<<"Division of two number is ="<<div<<endl;
 
 
 //int mod=num1%num2;
@@ -55,6 +55,5 @@ cout<<setw(33)<<"Division of two number is ="<<div<<endl;
 
 
 
-
-getch();
+return 0;
 }
