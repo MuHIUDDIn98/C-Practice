@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-main()
+int main()
 {
    double farenhite,celceous;
 
@@ -21,5 +21,5 @@ main()
 
 
 
-
+return 0;
 }
