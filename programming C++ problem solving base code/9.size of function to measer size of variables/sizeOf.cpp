@@ -39,4 +39,7 @@ For example:*/
 
   int MyArr[10];
     cout <<"Size of MyArr array : "<< sizeof(MyArr) <<"byte"<< endl;
+
+
+    return 0;
 }
