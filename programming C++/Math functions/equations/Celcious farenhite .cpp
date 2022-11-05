@@ -1,9 +1,10 @@
 #include<iostream>
+#include<math.h>
 using namespace std;
 
 main()
 {
-   double farenhite,celceous;
+      double farenhite,celceous;
 
    cout<<"Enter celceous=";
    cin>>celceous;
@@ -16,10 +17,7 @@ main()
    cout<<"Enter farenhite=";
    cin>>farenhite;
    celceous=farenhite-32/1.8;
-   cout<<"celceous="<<celceous<<"  celceous to kelvin="<<celceous+273<<"kelvin";
-
-
-
+   cout<<"celceous="<<celceous<<"elceous to kelvin="<<celceous+273<<"kelvin";
 
 
 }
